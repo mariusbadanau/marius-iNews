@@ -17,7 +17,10 @@
 
 "require-dev": {
          "wpackagist-plugin/debug-bar": "~0.8",
-        "wpackagist-plugin/debug-bar-console": "~0.3"
+        "wpackagist-plugin/debug-bar-console": "~0.3",
+        "behat/behat":"v3.0.15"
+        
+
     },
 
     "minimum-stability": "dev",
