@@ -13,14 +13,16 @@
         "wpackagist-theme/sportsmag":"1.1.1",
         "wpackagist-plugin/accesspress-social-icons":"1.5.3"
         
+        
     },
 
 "require-dev": {
          "wpackagist-plugin/debug-bar": "~0.8",
         "wpackagist-plugin/debug-bar-console": "~0.3",
-        "behat/behat":"v3.0.15"
-        
-
+        "johnbillion/wordpress-behat-extension": "~0.1",
+        "behat/mink-goutte-driver": "1.2.1",
+        "behat/mink-browserkit-driver": "1.3.2"
+       
     },
 
     "minimum-stability": "dev",
