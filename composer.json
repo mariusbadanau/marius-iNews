@@ -11,17 +11,19 @@
         "johnpbloch/wordpress": "4.5.2",
         "wpackagist-theme/news-mix-lite":"2.0.6",
         "wpackagist-theme/sportsmag":"1.1.1",
-        "wpackagist-plugin/accesspress-social-icons":"1.5.3"
-        
+        "wpackagist-plugin/accesspress-social-icons":"1.5.3",
+    "behat/behat":  "~3.0,>=3.0.5",
+    "behat/mink":   "~1.5",
+    "symfony/config": "~2.2|~3.0",
+    "behat/mink-extension": "*"
         
     },
 
 "require-dev": {
          "wpackagist-plugin/debug-bar": "~0.8",
         "wpackagist-plugin/debug-bar-console": "~0.3",
-        "johnbillion/wordpress-behat-extension": "~0.1",
-        "behat/mink-goutte-driver": "1.2.1",
-        "behat/mink-browserkit-driver": "1.3.2"
+          "phpspec/phpspec":          "~2.0",
+        "behat/mink-goutte-driver": "~1.1"
        
     },
 

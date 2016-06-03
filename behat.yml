@@ -1,5 +1,10 @@
 default:
   extensions:
     Behat\MinkExtension:
-      base_url:    'http://learnphp.local/INews-WordPress1/'
-      goutte: ~
+      base_url:  'http://192.168.33.25/INews-WordPress1/'
+      sessions:
+        default:
+          goutte: ~
+
+imports:
+  - behat.local.yml

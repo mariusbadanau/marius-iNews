@@ -6,9 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'phpDocumentor' => array($vendorDir . '/phpdocumentor/reflection-docblock/src'),
     'johnpbloch\\Composer\\' => array($vendorDir . '/johnpbloch/wordpress-core-installer/src'),
-    'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
+    'WebDriver' => array($vendorDir . '/instaclick/php-webdriver/lib'),
     'Behat\\Transliterator' => array($vendorDir . '/behat/transliterator/src'),
     'Behat\\Testwork' => array($vendorDir . '/behat/behat/src'),
     'Behat\\MinkExtension' => array($vendorDir . '/behat/mink-extension/src'),
