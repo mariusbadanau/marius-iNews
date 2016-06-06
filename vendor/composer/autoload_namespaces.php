@@ -7,10 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'johnpbloch\\Composer\\' => array($vendorDir . '/johnpbloch/wordpress-core-installer/src'),
-    'WebDriver' => array($vendorDir . '/instaclick/php-webdriver/lib'),
-    'Behat\\Transliterator' => array($vendorDir . '/behat/transliterator/src'),
-    'Behat\\Testwork' => array($vendorDir . '/behat/behat/src'),
-    'Behat\\MinkExtension' => array($vendorDir . '/behat/mink-extension/src'),
-    'Behat\\Gherkin' => array($vendorDir . '/behat/gherkin/src'),
-    'Behat\\Behat' => array($vendorDir . '/behat/behat/src'),
+    'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
+    'PHPMD\\' => array($vendorDir . '/phpmd/phpmd/src/main/php'),
 );

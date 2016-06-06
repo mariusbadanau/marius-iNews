@@ -11,19 +11,22 @@
         "johnpbloch/wordpress": "4.5.2",
         "wpackagist-theme/news-mix-lite":"2.0.6",
         "wpackagist-theme/sportsmag":"1.1.1",
-        "wpackagist-plugin/accesspress-social-icons":"1.5.3",
-    "behat/behat":  "~3.0,>=3.0.5",
-    "behat/mink":   "~1.5",
-    "symfony/config": "~2.2|~3.0",
-    "behat/mink-extension": "*"
+        "wpackagist-plugin/accesspress-social-icons":"1.5.3"
+
+   
         
     },
 
 "require-dev": {
          "wpackagist-plugin/debug-bar": "~0.8",
         "wpackagist-plugin/debug-bar-console": "~0.3",
-          "phpspec/phpspec":          "~2.0",
-        "behat/mink-goutte-driver": "~1.1"
+          "phpunit/phpunit":"5.4.2",
+          "squizlabs/php_codesniffer":"2.6.1",
+          "phploc/phploc":"3.0.1",
+          "czproject/phpdepend":"1.0.6",
+          "phpmd/phpmd":"2.4.3",
+          "sebastian/phpcpd":"2.0.4"
+
        
     },
 

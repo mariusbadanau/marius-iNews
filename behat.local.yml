@@ -1,7 +1,0 @@
-# Local configuration.
-default:
-  context:
-    parameters:
-      wp_users:
-        another-user:
-          'password'
